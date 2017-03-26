@@ -3,6 +3,9 @@
 	margin: 0;
 	padding: 0;
 	font-family:"Segoe UI", 'Noto Sans', sans-serif; 
+}
+
+body {
 	font-size: 16px;
 }
 
@@ -18,6 +21,7 @@
 	justify-content: center;
 	align-items: center;
 }
+
 
 form {
 	width: 420px;
@@ -36,6 +40,7 @@ form {
 .header h1 {
   	color: #ffffff;
   	font-size: 1.4em;
+    font-weight: normal;
   	line-height: 60px;
   	padding-left: 30px;
   	float: left;
@@ -48,7 +53,7 @@ form {
 }
 
 .social-item {
-	display: inline-block;
+	float: right;
 	height: 100%;
 	width: 70px;
 	border-left: 1px solid #3f5f95;	
@@ -58,6 +63,10 @@ form {
 	display: block;
 	height: 100%;
 	width: 100%;
+}
+
+.social-item > a:hover {
+	background-color: rgba(0, 0, 0, 0.1);
 }
 
 .fb {
@@ -75,6 +84,7 @@ form {
 
 .main {
 	padding: 60px 30px 50px 30px;
+	background-color: #ffffff;
 }
 
 input {
@@ -89,20 +99,22 @@ input {
 	background-color: #f9f9f9;
 	}
 
-	input:focus { 
-    background-color:#ffffff;
+input:focus { 
+    background-color: #ffffff;
 }
 	
 
 .email {
 	background: url("../img/email.png") no-repeat right;
 	background-position: 95%;
+	background-color: #f9f9f9;
 	margin-bottom: 20px;
 }
 
 .password { 
 	background: url("../img/locked.png") no-repeat right;
 	background-position: 95%;
+	background-color: #f9f9f9;
 	margin-bottom: 30px;
 }
 
@@ -112,17 +124,20 @@ input {
 	border-radius: 4px;
 	background-color: #f35259;
 	color: #ffffff;
-	font-weight: bold; 
 	font-size: 1.2em;
 	line-height: 55px;
 	cursor: pointer;
 	border: none;
 }
 
+.login:hover {
+	background-color: #f44336;	
+}
+
 .footer {
 	height: 60px;
 	background-color: #f4f3f4;
-	font-size: 18px;
+	font-size: 1.1em;
 	text-align: center;
 	color: #929292;
 	line-height: 60px;
@@ -131,7 +146,9 @@ input {
 .footer a {
 	text-decoration: none;
 	color: #f35b61;
-	font-size: 18px;
 }
 
-
+.footer a:hover {
+	text-decoration: underline;
+	color: #f44336;
+}
