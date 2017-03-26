@@ -73,3 +73,61 @@ form {
 	background: url("../img/google.png") no-repeat center; 	
 }
 
+
+.main {
+	padding: 60px 30px 50px 30px;
+}
+
+input {
+    -webkit-appearance: none;
+    outline: none;
+    border: 2px solid #e0e0e0;
+    border-radius: 4px;
+    height: 55px;
+	width: 100%;
+	padding-left: 20px;
+	font-size: 1.2em;
+	
+}
+
+.email {
+	background: url("../img/email.png") no-repeat right;
+	background-position: 95%;
+	margin-bottom: 20px;
+}
+
+.password { 
+	background: url("../img/locked.png") no-repeat right;
+	background-position: 95%;
+	margin-bottom: 30px;
+}
+
+.login {
+	width: 100%;
+	height: 55px;
+	border-radius: 4px;
+	background-color: #f35259;
+	color: #ffffff;
+	font-weight: bold; 
+	font-size: 1.2em;
+	line-height: 55px;
+	cursor: pointer;
+	border: none;
+}
+
+.footer {
+	height: 60px;
+	background-color: #f4f3f4;
+	font-size: 18px;
+	text-align: center;
+	color: #929292;
+	line-height: 60px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #f35b61;
+	font-size: 18px;
+}
+
+
