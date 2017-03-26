@@ -21,7 +21,6 @@
 
 form {
 	width: 420px;
-	height: 420px;
 	border: 1px solid #d7d7d7;
 	border-radius: 5px;
 	overflow: hidden;
@@ -87,8 +86,13 @@ input {
 	width: 100%;
 	padding-left: 20px;
 	font-size: 1.2em;
-	
+	background-color: #f9f9f9;
+	}
+
+	input:focus { 
+    background-color:#ffffff;
 }
+	
 
 .email {
 	background: url("../img/email.png") no-repeat right;
